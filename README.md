@@ -87,8 +87,6 @@ EcoRoute/
 - 수십 MB짜리 행별 예측 CSV, 실행 시 재생성되는 경로 결과, 테스트 및 Python 캐시
 - 개인 VS Code 설정과 가상환경
 
-GitHub 웹의 **Add file**은 `.gitignore`를 자동으로 적용해 주지 않으므로, 수동 업로드할 때는 위 인계 구조에 표시된 파일과 폴더만 선택해야 합니다. 특히 `edge_hourly_profiles.csv`가 아니라 `edge_hourly_profiles.csv.gz`를 올립니다.
-
 ## 모델 출력 범위
 
 현재 탄소 환산은 휘발유 에너지 33.7 kWh/US gal과 직접 배기관 배출 8.887 kg CO2/US gal을 사용합니다. 연료 생산·정제·운송과 차량 제조 배출량은 포함하지 않습니다.
